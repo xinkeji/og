@@ -18,7 +18,7 @@ export default async function handler(request: NextRequest) {
         let title = originalTitle;
 
         if (!title) {
-            title = 'A Hugo blog about Charles Chin.';
+            title = 'A Hugo blog about naiveのai.';
         } else {
             title = title.slice(0, 100);
         }
@@ -78,7 +78,7 @@ export default async function handler(request: NextRequest) {
                                 marginRight: 'auto',
                             }}
                         >
-                            <b>大大的小蜗牛&apos;Blog</b>
+                            <b>果粉圈&apos;Blog</b>
                         </div>
                         <div
                             style={{
@@ -105,7 +105,7 @@ export default async function handler(request: NextRequest) {
                                 marginLeft: 'auto',
                             }}
                         >
-                            <small>- Charles Chin (@eallion)</small>
+                            <small>- naiveのai (@g0f.cn)</small>
                         </div>
                     </div>
                 </div>
