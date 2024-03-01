@@ -8,7 +8,7 @@ export const config = {
 export default async function handler(request: NextRequest) {
     try {
         const fontData = await fetch(
-            new URL('https://github.com/adobe-fonts/source-sans/raw/release/WOFF/OTF/SourceSans3-Black.otf.woff', import.meta.url),
+            new URL('https://xkj.93665.xin/wp-content/themes/begin/css/fonts/be.woff', import.meta.url),
         ).then((res) => res.arrayBuffer());
 
         const { searchParams } = new URL(request.url);
