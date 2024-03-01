@@ -8,7 +8,7 @@ export const config = {
 export default async function handler(request: NextRequest) {
     try {
         const fontData = await fetch(
-            new URL('https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&display=swap', import.meta.url),
+            new URL('https://pss.bdstatic.com/static/superman/font/iconfont-fa013548a9.woff2', import.meta.url),
         ).then((res) => res.arrayBuffer());
 
         const { searchParams } = new URL(request.url);
