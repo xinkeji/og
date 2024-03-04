@@ -8,7 +8,7 @@ export const config = {
 export default async function handler(request: NextRequest) {
     try {
         const fontData = await fetch(
-            new URL('https://fonts.googleapis.com/css?family=Open+Sans', import.meta.url),
+            new URL('../../public/MaShanZheng-Regular.ttf', import.meta.url),
         ).then((res) => res.arrayBuffer());
 
         const { searchParams } = new URL(request.url);
