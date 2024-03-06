@@ -7,7 +7,7 @@ export const config = {
 
 export default async function handler(request: NextRequest) {
     try {
-        const fontUrl = 'https://cdn.jsdelivr.net/gh/xinkeji/img@master/MaShanZheng-Regular.ttf';
+        const fontUrl = 'https://github.com/xinkeji/og/raw/ttf/MaShanZheng-Regular.ttf';
 
         const fontData = await fetch(fontUrl).then((res) => res.arrayBuffer());
 
